@@ -1,6 +1,6 @@
-const ListItem = () => {
+const ListItem = ( {task}:any) => {
     return (
-        <li>Hit the gym</li>
+        <li>{task}</li>
     )
 }
 export default ListItem;
